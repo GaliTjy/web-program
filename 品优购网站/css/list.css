@@ -1,0 +1,90 @@
+/*列表页专有css*/
+/*秒杀模块*/
+.sk {
+    position: absolute;
+    left:190px;
+    top:40px;
+    padding:3px 0 0 14px;
+    border-left: 1px solid #c81623;
+}
+
+/*nav头部模块制作*/
+.nav {
+    overflow: hidden;
+}
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    padding: 0 30px;
+    line-height: 47px;
+    font-size: 16px;
+    font-weight: 700;
+    color:#000;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    padding: 0 20px;
+    line-height: 49px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    content:'\e91e';
+    font-family:"icomoon";
+}
+
+/*列表页主体部分*/
+.sk_bd ul li{
+    float: left;
+    margin-right: 13px;
+    overflow: hidden;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+}
+
+.sk_bd ul li:hover{
+    border: 1px solid #c81623;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
